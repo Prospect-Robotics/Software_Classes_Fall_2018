@@ -7,7 +7,7 @@ public class Higher_or_Lower {
 		Random random = new Random();
 		int randomNumber = random.nextInt(101);
 		
-		System.out.println("Please enter a number between ");
+		System.out.println("Please enter a number between 1 and 100");
 		boolean hasNumberBeenGuessed = false;
 		while(hasNumberBeenGuessed == false) {
 			int input = scanner.nextInt();
