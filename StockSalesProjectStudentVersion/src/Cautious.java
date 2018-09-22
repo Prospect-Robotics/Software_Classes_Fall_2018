@@ -11,6 +11,7 @@ public class Cautious implements StockInvestor{
 	public void run() {
 		while(true) {
 			try {
+				//What two other methods should be called here?
 				Thread.sleep(1000);
 			}catch(Exception e) {
 				
