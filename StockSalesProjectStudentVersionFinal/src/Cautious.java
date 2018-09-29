@@ -28,6 +28,9 @@ public class Cautious implements StockInvestor{
 	
 	@Override
 	public void strategy() {
+		if (NumberOfStocks > 1) {
+			NumberOfStocks ++;
+		}
 		//HINT: read the Javadoc
 	}
 
